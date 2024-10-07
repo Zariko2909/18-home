@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+.service, a:hover {
+  color: #19191B;
+  border-bottom: 2px solid #5454D4;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+nav img {
+  width: 199.48px;
+  height: 39.22px;
+}
+nav ul {
+  width: 199.48px;
+  height: 39.22px;
+  display: flex;
+  gap: 49px;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 19.53px;
+  letter-spacing: -0.4689474106px;
+  color: #696871;
+  width: 42px;
+  height: 20px;
+}
+nav button {
+  width: 211px;
+  height: 60px;
+  background: #FF7143;
+  color: rgb(255, 255, 255);
+  font-family: DM Sans;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 22.13px;
+  letter-spacing: -0.5314737558px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.plans, footer .plan .enterp, footer .plan .prem, footer .plan .start {
+  width: 330px;
+  background-color: #F8F8F8;
+  padding: 35px 20px;
+  border-radius: 5px;
+  margin: 6px;
+}
+
+.text, footer .plan .enterp .text, footer .plan .prem .text, footer .plan .start .text {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.5627369285px;
+  text-align: center;
+  width: 150px;
+  color: rgb(105, 104, 113);
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.price, footer .plan .enterp .price, footer .plan .prem .price, footer .plan .start .price {
+  font-family: DM Sans;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -1.0344827175px;
+  color: rgb(29, 41, 63);
+  margin-top: 22px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.ftr_btn, footer .plan .enterp .ftr_btn, footer .plan .prem .ftr_btn, footer .plan .start .ftr_btn {
+  background: #FFFFFF;
+  border-radius: 1px;
+  font-family: DM Sans;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 22.13px;
+  letter-spacing: -0.5314737558px;
+  color: rgb(84, 84, 212);
+  width: 285px;
+  height: 60px;
+  border: none;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.hover, .plans:hover, footer .plan .start:hover, footer .plan .prem:hover, footer .plan .enterp:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.3);
+  background: #FF7143;
+}
+.hover .text, .plans:hover .text, footer .plan .start:hover .text, footer .plan .prem:hover .text, footer .plan .enterp:hover .text, .hover footer .plan .enterp .text, .plans:hover footer .plan .enterp .text, footer .plan .enterp .hover .text, footer .plan .enterp .plans:hover .text, .hover footer .plan .prem .text, .plans:hover footer .plan .prem .text, footer .plan .prem .hover .text, footer .plan .prem .plans:hover .text, .hover footer .plan .start .text, .plans:hover footer .plan .start .text, footer .plan .start .hover .text, footer .plan .start .plans:hover .text {
+  color: #FFFFFF;
+}
+.hover .price, .plans:hover .price, footer .plan .start:hover .price, footer .plan .prem:hover .price, footer .plan .enterp:hover .price, .hover footer .plan .enterp .price, .plans:hover footer .plan .enterp .price, footer .plan .enterp .hover .price, footer .plan .enterp .plans:hover .price, .hover footer .plan .prem .price, .plans:hover footer .plan .prem .price, footer .plan .prem .hover .price, footer .plan .prem .plans:hover .price, .hover footer .plan .start .price, .plans:hover footer .plan .start .price, footer .plan .start .hover .price, footer .plan .start .plans:hover .price {
+  color: #FFFFFF;
+}
+.hover .ftr_btn, .plans:hover .ftr_btn, footer .plan .start:hover .ftr_btn, footer .plan .prem:hover .ftr_btn, footer .plan .enterp:hover .ftr_btn, .hover footer .plan .enterp .ftr_btn, .plans:hover footer .plan .enterp .ftr_btn, footer .plan .enterp .hover .ftr_btn, footer .plan .enterp .plans:hover .ftr_btn, .hover footer .plan .prem .ftr_btn, .plans:hover footer .plan .prem .ftr_btn, footer .plan .prem .hover .ftr_btn, footer .plan .prem .plans:hover .ftr_btn, .hover footer .plan .start .ftr_btn, .plans:hover footer .plan .start .ftr_btn, footer .plan .start .hover .ftr_btn, footer .plan .start .plans:hover .ftr_btn {
+  background: #9F3919;
+  color: #FFFFFF;
+}
+
+footer {
+  width: 1111px;
+  height: 695px;
+  margin: 0 auto;
+}
+footer .limit {
+  width: 1111px;
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .limit h2 {
+  font-family: DM Sans;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: left;
+  width: 523px;
+  height: 140px;
+  color: #19191B;
+}
+footer .limit .mont {
+  background: rgb(247, 247, 251);
+  width: 344px;
+  height: 65px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: #19191B;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-top: 35px;
+  cursor: pointer;
+}
+footer .limit .mont .year {
+  width: 160px;
+  height: 55px;
+  border-radius: 10px;
+  background: #5454D4;
+  font-family: DM Sans;
+  font-size: 16px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+footer .plan {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 82px;
+}
+footer .plan .start .ftr_btn {
+  margin-top: 15px;
+}/*# sourceMappingURL=main.css.map */
